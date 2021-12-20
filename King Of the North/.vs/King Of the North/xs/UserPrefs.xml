@@ -1,30 +1,22 @@
 ﻿<Properties StartupConfiguration="{495C3725-8D98-47CC-70A4-C4D7CCDF42EA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMovements.cs">
-    <Files>
-      <File FileName="Assets/Scripts/EnemyOneMovements.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerMovements.cs" Line="16" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="King Of the North" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scenes" selected="True" />
-              <Node name="Scripts" expanded="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="EnemyOneMovements.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unity" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a1401480-015f-459b-8ac3-fb409da5a4e8" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="75b133b8-0a09-48bc-b840-250b3ec3f118" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
