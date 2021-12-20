@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637737483530000000
-    m_Hash: 2641351944
+      ticks: 637745545550000000
+    m_Hash: 287196759
   m_LockFileStatus:
     m_FilePath: /Users/northa/Documents/Projects_Unity/OAMK/group_7/King Of the North/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637737483570000000
-    m_Hash: 3539099538
+      ticks: 637745545550000000
+    m_Hash: 3538647997
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -82,6 +82,7 @@ m_PackageAssets:
         - 3.2.11
         - 3.2.13
         - 3.2.14
+        - 3.2.15
         - 4.0.0
         - 4.0.1
         - 4.1.0
@@ -481,6 +482,7 @@ m_PackageAssets:
         - 3.0.15
         - 3.0.16
         - 3.0.17
+        - 3.0.18
         - 4.0.0
         - 4.0.1
         - 4.0.2
@@ -677,8 +679,10 @@ m_PackageAssets:
         - 1.13.5
         - 1.14.1
         - 1.14.4
+        - 1.14.7
         - 1.15.1
         - 1.15.4
+        - 1.15.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -693,8 +697,10 @@ m_PackageAssets:
         - 1.13.5
         - 1.14.1
         - 1.14.4
+        - 1.14.7
         - 1.15.1
         - 1.15.4
+        - 1.15.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
