@@ -2,19 +2,18 @@ using UnityEngine;
 
 public class MovingPlatform : MonoBehaviour
 {
-private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.transform.CompareTag("Player"))
+void OnCollisionEnter2D(Collision2D other)
+{
+    if (other.gameObject.name == "Player")
         {
-            collision.gameObject.transform.SetParent(transform);
+            other.gameObject.transform.SetParent(transform);
         }
-    }
-
-private void OnCollisionExit2D(Collision2D collision)
+}
+    void OnCollisionExit2D(Collision2D other)
     {
-        if (collision.transform.CompareTag("Player"))
+        if (other.gameObject.name == "Player")
         {
-            collision.gameObject.transform.SetParent(null);
+            other.gameObject.transform.SetParent(null);
         }
     }
 

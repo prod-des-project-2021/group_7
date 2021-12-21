@@ -18,4 +18,23 @@ public class MovableOneBehaviour : MonoBehaviour
         }
         transform.position = Vector2.MoveTowards(transform.position, waypoints[currentWaypointIndex].transform.position, Time.deltaTime * speed);
     }      
+
+private void OnTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.name == "Player")
+        {
+            // collision.gameObject.transform.SetParent(transform);
+            collision.transform.parent = this.transform;
+        }
+    }
+
+    private void OnTriggerExit(Collider collision)
+    {
+        if (collision.gameObject.name == "Player")
+        {
+            // collision.gameObject.transform.SetParent(null);
+            collision.transform.parent = null;
+
+        }
+    }
 }
